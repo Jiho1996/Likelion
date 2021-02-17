@@ -1,19 +1,19 @@
-<!DOCTYPE html>
-<html lang="ko">
+<!DOCTYPE html> <!--to server 이건 html파일이에요-->
+<html lang="ko"><!--언어는 korean이에요.-->
 <head>
-    <meta charset="UTF-8">
-    <title>나를 소개합니다</title>
+    <meta charset="UTF-8"> <!--인코딩 방식-->
+    <title>나를 소개합니다</title><!--문서 title-->
 </head>
 <body>
-    <h1>박지호를 소개합니다</h1>
+    <h1>박지호를 소개합니다</h1><!--중요도 순서 h1 h2-->
     <h2>박지호를 소개해요</h2>
 
-    <form action="전송받을 대상">
+    <form action="전송받을 대상"> <!-- 입력을 받을건데 입력내용은 전송받을 대상에게 보낼 내용이야.-->
         아이디 : <input type="text" name="myid"> <!--name은 쉽게말해 인식할 변수명-->
         패스워드 : <input type="password" name="mypw"><!--클라이언트와 서버는 URL로 통신한다.-->
         <input type="submit">
     </form>
-    <br>
+    <br> <!--줄바꾸기-->
     <img src="snowman.jpeg" height=300 width=300>
     <!--jpg파일은 html과 같은 파일내에 있어야한다.-->
     <br>
@@ -33,7 +33,41 @@
         </textarea>
         <br>
         <input type ="submit">
-    </form>
+    </form><br>
+    <h2>나의 일대기</h2>
+    <ol> <!--ordered list-->
+        <li><a href="1.html">유년기</a></li> <!--같은 폴더내에 1.html-->
+        <li><a href="2.html">질풍노도의 시기</a></li>
+        <li>방황기</li>
+        <li>now</li>
+    </ol>
+
+    <ol> <!--ol>li*10의 결과 10개 출력-->
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ol>
+    <ul><!--unordered list list 10개 출력.-->
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
     
 </body>
 </html>
+
+<!--라이브 서버 결과볼때는 오른쪽클릭해서 소스보기로 내코드 볼수있다.-->
