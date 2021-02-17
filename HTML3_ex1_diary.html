@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>나를 소개합니다</title>
+</head>
+<body>
+    <h1>박지호를 소개합니다</h1>
+    <h2>박지호를 소개해요</h2>
+
+    <form action="전송받을 대상">
+        아이디 : <input type="text" name="myid"> <!--name은 쉽게말해 인식할 변수명-->
+        패스워드 : <input type="password" name="mypw"><!--클라이언트와 서버는 URL로 통신한다.-->
+        <input type="submit">
+    </form>
+    <br>
+    <img src="snowman.jpg" height=300 width=300>
+    <!--jpg파일은 html과 같은 파일내에 있어야한다.-->
+    <br>
+
+    <form action="전송받을 대상">
+        <h2>나의 일기장</h2>
+        제목 : <input type ="text" name = "diaryTitle"> 
+        <select>
+            <option = value="goodDay">좋은날</option>
+            <option = value="badDay">나쁜날</option>
+            <option = value="sosoDay">그저 그런날</option>
+        </select><br>
+        내용 : <br>
+        <textarea
+            cols="30"
+            rows="20">
+        </textarea>
+        <br>
+        <input type ="submit">
+    </form>
+    
+</body>
+</html>
