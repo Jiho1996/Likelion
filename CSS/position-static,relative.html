@@ -5,39 +5,124 @@
     <title>지호입니다.</title>
     <style>
         body{background-color: skyblue; margin : 0;}
-        #parent {
-            width: 200px;
-            height: 200px;
-            background-color: snow;
-        }
-        #child{
-            width: 100px;
-            height: 100px;
-            background-color: lemonchiffon;
-            /*position : static;*/
-            position: relative;
-            
-        }
-        #child2{
-            width: 100px;
-            height: 100px;
-            background-color: red;
-            position: relative;
-            top : 20px;
-            left :20px;
-        }
+        span, div {
+    background: yellow;
+    border: 1px solid red;
+    }
+    .top {
+  position: relative;
+  top: 5px;
+  z-index: 1;
+}
+
+.right {
+  position: relative;
+  right: 5px;
+}
+
+.bottom {
+  position: relative;
+  bottom: 5px;
+}
+
+.left {
+  position: relative;
+  left: 5px;
+}
+#absolute {
+  background: yellow;
+  position: absolute;
+  right: 0;
+}
+
+#parent {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background: skyblue;
+}
+
+#child {
+  position: absolute;
+  right: 0;
+}
+#fixed {
+  background: yellow;
+  position: fixed;
+  right: 0;
+}
+
+    
     </style>
 </head>
 <body>
-    <div id="parent">
-        <div id="child">
-            child
-        </div>
-        <div id="child2">
-            child2
-        </div>
-        
-    </div>
+<span>span1</span>
+<span>span2</span>
+<span>span3</span>
+<div>div1</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<span class="top">top</span>
+<span class="right">right</span>
+<span class="bottom">bottom</span>
+<div class="left">left</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div>
+    <div id="absolute">absolute</div>
+  </div>
+  <div id ="parent">
+    <div id="child">children</div>
+  </div>
+  <br>
+<br>
+<br>
+<br>
+<br>
+<div>
+    <div id="fixed">fixed</div>
+  </div>
+  <br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+   
 </body>
 </html>
 
